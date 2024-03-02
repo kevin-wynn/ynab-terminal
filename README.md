@@ -6,6 +6,8 @@ YNAB budget right in your terminal! Get quick views of your budgets, balances, a
 
 ## TODO/Roadmap:
 
+- Fix when rounding for currency, if the final int is a `0` it doesn't show
+- Support more currency than just USD
 - Set up tview and build a dashboard
 
   - Left hand panel for budgets/accounts
