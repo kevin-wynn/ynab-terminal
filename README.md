@@ -4,6 +4,15 @@
 
 YNAB budget right in your terminal! Get quick views of your budgets, balances, and accounts in your terminal view.
 
+## Set up:
+
+Eventually I plan on making this configurable directly in the package so you don't need to compile or run .env files with your tokens/budgets. But today you will need to create a `.env` file in your GOPATH/bin/ynab-terminal that contains:
+
+```
+YNAB_ACCESS_TOKEN=""
+YNAB_BUDGET_ID=""
+```
+
 ## TODO/Roadmap:
 
 - Fix when rounding for currency, if the final int is a `0` it doesn't show
